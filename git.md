@@ -7,7 +7,7 @@ Git er et system der bruges til at holde styr på ens kildetekst over tid. Det e
 Ideen er at du efter at have arbejdet med denne note skal:
 
 - kunne arbejde sammen i en gruppe om kildetekst
-- kunne bruge git fra git bash til at lave nye versioner og hente andres opdateringer
+- kunne bruge git fra git bash til at lave nye versioner og hente andres opdateringer (eller IntelliJs Git funktioner)
 - lave dit egen konto på github og oprette projekter og dele dem
 
 ## Erhvervsrelevans
