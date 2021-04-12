@@ -209,8 +209,8 @@ Men det sker at der opstår "merge konflikter". Det sker hvis du har været inde
 * Først vil du få at vide at du skal sige pull, da du er "bagud" i forhold til github.
 * Når du så siger pull, vil du få en meget lang fejlbeskrivelse. Den siger, at git ikke selv kunne finde ud af at sætte de to ændringer sammen (der er rettet det samme steder i de samme filer).
 
-1. Få dette til at ske - den ene af jer laver en ny ændring i datoformat i udskrivDato() metoden og pusher denne rettelse til github.
-2. Den anden laver også ændring i udskrivDato() metodens datoformat, men til noget andet forstås! Og prøver derefter et `git push` (efter `git add` og `git commit`).
+1. Få dette til at ske - den ene af jer laver en ny ændring af datoudskrivning i main metoden og pusher denne rettelse til github.
+2. Den anden laver også en ændring af datoudskrivning i main, men ikke helt magen til! Og prøver derefter et `git push` (efter `git add` og `git commit`).
 3. Dette bør give fejl. Så skrives `git pull`.
 4. Dette giver en fejlmeddelse i stil med denne:
 
