@@ -166,7 +166,7 @@ Der skal oprettes et repository på github, som I skal være to om.
 
 
 ### Opg 2
-Download (ikke vha clone, blot ren gammeldags zip) [Kodestafet zipfil på Fronter](https://kea-fronter.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=847847)  og få det til at køre. 
+Opret nyt IntelliJ projekt, og skriv en simpel main metode, som kan udskrive dags dato på skærmen. 
 
 ### Opg 3
 Lave en klon af github projektet og kopierer IntelliJ projektet over i denne klon og få det op på github.
@@ -175,10 +175,10 @@ Lave en klon af github projektet og kopierer IntelliJ projektet over i denne klo
 Klon til den andens maskine og få det også til at køre fra dennes maskiner (I har nu to kloner kørende lokalt).
 
 ### Opg 5
-Den ene af jer ændrer datoformatet i udskrivDato metoden() i klassen Hovedmenu.java så man får udskrevet dato med punktum i stedet for bindestreg. F.eks. 31.08.2020.
+Den ene af jer ændrer datoformatet, så klokkeslæt ligeledes udskrives på skærmen.
 
 ### Opg 6
-Den, der ændrede, skal nu få disse ændringer på github. Det gøres ved:
+Den, der foretog ændring, skal nu få ændringen på github. Det gøres ved:
 
 ```bash
 $ git add . # Tilføj alle ændringer fra workspace til staging/index.
@@ -186,22 +186,22 @@ $ git commit -m "Ændret datoformat"
 $ git push # Push ændringer til github
 ```
 ### Opg 7
-Den anden skal nu få denne ændring ned på sin egen maskine
+Den anden skal nu få denne ændring ned på sin egen maskine:
 
 ```bash
 $ git pull # opdater local repository og workspace
 ```
 
 ### Opg 8
-Slet det directory som indeholder projektet. Check at det er fuldstændigt væk, dødt, pist borte! Dernæst gå til jeres Github og klon det, så du får det igen. Pointe: Hvis det er på jeres github er det aldrig tabt!!!!
+Slet det directory på jeres maskine, som indeholder projektet. Check at det er fuldstændigt væk, dødt, pist borte! Dernæst gå til jeres GitHub og klon det, så du får det igen. Pointe: Hvis det er på jeres GitHub er det aldrig tabt!!!!
 
 ## Merge opgave (extra)
-Denne opgave er optionel - men skal laves af alle på et tidpunkt senere i semesteret.
+Denne opgave er optionel.
 
 ### Opg 9 
 Når man skal arbejde sammen, så er der mange ting der skal falde på plads,  her vil vi se på to ting:
 
-* Man prøver at aftale hvem der arbejder på hvilke filer (f.eks. en laver database og en anden laver web sider ...)
+* Man prøver at aftale hvem der arbejder på hvilke filer (f.eks. en laver brugerdialog og en anden laver skrivning til fil ...)
 * Det er vigtigt at man ofte laver et `git pull` så man holder sit workspace opdateret i forhold til hvad de andre i gruppen har lavet.
 
 Men det sker at der opstår "merge konflikter". Det sker hvis du har været inde i fil X og rettet i linje 18, samtidigt med at der er en anden der har gjort det samme. Hvis den anden har sagt `git push` før dig, så vil du få en række fejl når du siger `git push`:
